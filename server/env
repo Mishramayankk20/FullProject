@@ -1,0 +1,8 @@
+DB_HOST = localhost
+DB_USER = root
+DB_PASS = ""
+DB_NAME = user_management
+
+Deployment
+1. ip of the node via command --->  kubectl get nodes -o wide
+2. DB_PORT = nodeport mentioned in yaml  mysql
